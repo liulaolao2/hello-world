@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html" charset="UTF-8">
+<title>campaign test</title>
+
+<script language="javascript">
+function clickCounter(){
+var click = new Image (1,1);
+click.src = "https:\/\/ad.doubleclick.net\/ddm\/trackclk\/N8994.197851ABC\/B21803273.241861630;dc_trk_aid=438696481;dc_trk_cid=113295557;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua="
+console.log("clicked");
+return false;
+}
+</script>
+</head>
+
+<body>
+	<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+<a onClick="clickCounter()">Click on this</a>
+<p id="demo"></p>
+
+
+
+
+
+</body>
+</html>
